@@ -93,6 +93,7 @@ section {
     width: 100%;
     height: 600px;
     background: url(../images/hero_image_bioinfo.jpg) no-repeat center center;
+    background-size: cover;
     border-radius: 100px;
     animation:  stripesSlide 7s;
     animation-fill-mode: forwards;
@@ -107,7 +108,6 @@ section {
     position: absolute;
     padding: 20px;
     color: white;
-  
 }
 
 @keyframes stripesSlide {
@@ -132,7 +132,7 @@ section {
     text-align: center;
   }
 
-  #instruments img {
+  /* #instruments img {
     margin-left: 100px;
     margin-right: 100px;
 
@@ -157,17 +157,40 @@ section {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 0px;
+  } */
+  workflows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make section fill the whole viewport height */
   }
+  
+  .row {
+    display: flex;
+    justify-content: center; /* Center align the columns horizontally */
+}
 
-
+.column {
+    flex: 1; /* Equal width for each column */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the images vertically */
+}
+  
+  
   /* footer */
+
+  footer{
+    background-color: #107c10;
+  }
 
   #disclaimer{
      text-align: center;
+     background-color: white;
   }
 
   #socials{
-    background-color: #107c10;
     height: 100px;
     justify-content: center;
     align-items: center;
@@ -180,3 +203,54 @@ section {
     margin-left: 90px;
     margin-right: 90px;
   }
+
+
+
+  @media screen and (max-width: 897px) {
+
+   #disclaimer {
+    font-size: 50%
+   }
+
+   #title h1 {
+      font-size: 150%;
+      text-align: left;
+   }
+   
+   #menu, #title {
+    display: block;
+    clear: both;
+   }
+
+   #menu  { 
+   margin-left: 3px;
+   margin-bottom: 20px;
+   line-height: 25px;
+   padding: 1px;
+   font-size: 80%;
+   float: left;
+  } 
+
+  #over-image{
+    width: 300px;
+    height: 350px;
+    left: 70px;
+    top: 200px;
+  }
+
+  .row {
+    flex-direction: column; /* Stack columns vertically */
+ }
+
+  .column {
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+}
+
+  .column img {
+      width: 100%; /* Set images to full width */
+      height: auto;
+     
+  }
+  
+  
+}
