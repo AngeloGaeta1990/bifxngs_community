@@ -121,6 +121,10 @@ section {
 
   /* main instruments section */
 
+  #wokflows {
+    margin-bottom: 0px;
+  }
+
   #instrument-title {
     background-color: #107c10 ;
     width: 100%;
@@ -131,86 +135,86 @@ section {
   #instrument-title h2 {
     text-align: center;
   }
-
-  /* #instruments img {
-    margin-left: 100px;
-    margin-right: 100px;
-
-  }
  
-  #instruments {
+  #gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5px;
+    height: 500px; /* Adjust the height as needed */
+    margin-bottom: 10px;
+  }
+  
+  #gallery img {
+    width: 30%; /* Adjust the width based on your requirements */
+    margin: 10px;
+    object-fit: contain;
+    margin: 10px;
   }
 
-
-  #company_logo {
-     display: flex;
-     justify-content: center;
-     margin-bottom: 5px;
-
-  }
-
-  #company_logo img {
-
-    margin-left: 100px;
-    margin-right: 100px;
+  #disclaimer{
+    margin-top: 100px;
     margin-bottom: 0px;
-  } */
-  workflows {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Make section fill the whole viewport height */
-  }
-  
-  .row {
-    display: flex;
-    justify-content: center; /* Center align the columns horizontally */
-}
+    text-align: center;
+    background-color: white;
+ }
 
-.column {
-    flex: 1; /* Equal width for each column */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center align the images vertically */
-}
-  
   
   /* footer */
 
   footer{
+    margin-top: 0px;
     background-color: #107c10;
+    position: relative;
   }
 
-  #disclaimer{
-     text-align: center;
-     background-color: white;
+  
+   
+  #socials ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
   }
 
   #socials{
     height: 100px;
     justify-content: center;
     align-items: center;
-    display: flex;
+    margin-top: 10px;
   }
 
   #socials li {
     display: inline;
     list-style-type: none;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin: 0px 40px;
+  }
+  
+  .social-icon {
+    font-size: xx-large;
   }
 
+  #copyright {
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    background-color: #107c10;
+  }
+
+   /* Resources */
+
+   #publications {
+         background-color: #107c10;
+   }
 
 
   @media screen and (max-width: 897px) {
 
-   #disclaimer {
+   /* #disclaimer {
     font-size: 50%
-   }
+   } */
 
    #title h1 {
       font-size: 150%;
@@ -238,18 +242,18 @@ section {
     top: 200px;
   }
 
-  .row {
-    flex-direction: column; /* Stack columns vertically */
- }
-
-  .column {
-    flex-wrap: wrap; /* Allow images to wrap to the next line */
-}
-
-  .column img {
-      width: 100%; /* Set images to full width */
+  #gallery {
+      flex-direction: column; /* Stack images vertically */
       height: auto;
-     
+      margin: 10px 0;
+   }
+  
+  #gallery img {
+      width: 100%; /* Show images in full width */
+    }
+  
+  .hidden {
+    display: none;
   }
   
   
