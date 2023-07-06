@@ -85,7 +85,7 @@ a {
 section {
     clear: both;
     padding: 20px;
-    margin-bottom: 20px; /* Added margin between sections */
+    margin-bottom: 5px; /* Added margin between sections */
 }
 
 
@@ -155,7 +155,6 @@ section {
     margin-top: 100px;
     margin-bottom: 0px;
     text-align: center;
-    background-color: white;
  }
 
   
@@ -209,6 +208,36 @@ section {
          background-color: #107c10;
    }
 
+   #publications a {
+    text-decoration: none;
+   }
+
+   #publications li {
+    list-style-type: none;
+   }
+
+   #publications ul {
+    margin-left: 0px;
+    padding: 0px;
+   }
+
+   #publications a:hover{
+    color:#141422
+   }
+
+  table{
+    border-collapse: collapse;
+  }
+
+   th, td {
+    border: 1px hidden #ddd;
+    text-align: center;
+  }
+   
+  td:nth-child(3) {
+    width: 60%; /* Adjust the width value as per your requirement */
+    border: 1px solid black;
+}
 
   @media screen and (max-width: 897px) {
 
