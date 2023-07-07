@@ -100,7 +100,7 @@ a {
 #over-image{
     background-color: rgba(0, 0, 0, 0.85);
     top: 250px;
-    left: 950px;
+    right: 10px;
     width: 250px;
     height: 400px;
     position: absolute;
@@ -208,41 +208,94 @@ a {
   }
 
    /* Resources */
+    
+   /* introduction */
+   #introduction {
+    padding: 10px;
+    margin: 10px;
+
+   }
+   
+   #video-container {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+  }
+  
+
+  
+/* publications */
 
    #publications {
-         background-color: #107c10;
+    clear: both;
+    background-color: #107c10;
+    color: white;
    }
 
    #publications a {
     text-decoration: none;
+    color: white;
    }
 
    #publications li {
     list-style-type: none;
+    
    }
-
-   #publications ul {
-    margin-left: 0px;
-    padding: 0px;
-   }
-
    #publications a:hover{
     color:#141422
    }
 
-  table{
-    border-collapse: collapse;
+   #publications-header{
+    margin-left: 10px;
+    text-align: left;
+  
   }
 
-   th, td {
-    border: 1px hidden #ddd;
-    text-align: center;
+   #papers {
+    width: 1000px;
+    text-align: left;
   }
-   
-  td:nth-child(3) {
-    width: 60%; /* Adjust the width value as per your requirement */
-    border: 1px solid black;
-}
+
+   #papers li {
+    margin: 10px;
+   }
+
+    /* events */
+
+    #events {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30vh; /* Adjust the height as needed */
+     }
+  
+     #events a {
+      color: #141422;
+      text-decoration: none;
+     }
+  
+     #events a:hover{
+      color: #107c10;
+     }
+  
+     table{
+      border-collapse: separate;
+      border-spacing: 10px;
+     
+    }
+  
+     th, td {
+      border: 10px hidden #ddd;
+      text-align: left;
+    }
+     
+    
+
+
+ 
+
 
   @media screen and (max-width: 897px) {
 
