@@ -212,8 +212,15 @@ a {
    /* introduction */
    #introduction {
     padding: 10px;
-    margin: 10px;
+    background: url('../images/dna-3888228_1280.jpg') no-repeat center center;
+    background-size: cover;
 
+   }
+
+   #introduction h2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
    }
    
    #video-container {
