@@ -166,9 +166,9 @@ a {
   /* footer */
 
   footer{
-    margin-top: 0px;
+    margin-top: 0;
     background-color: #107c10;
-    position: relative;
+  
   }
 
   
@@ -177,7 +177,6 @@ a {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    margin-top: 20px;
     padding: 20px;
   }
 
@@ -185,7 +184,6 @@ a {
     height: 100px;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
   }
 
   #socials li {
@@ -199,10 +197,8 @@ a {
   }
 
   #copyright {
-    margin-top: 0px;
     text-align: center;
     color: white;
-    bottom: 0px;
     width: 100%;
     background-color: #107c10;
   }
@@ -312,6 +308,33 @@ a {
       border: 10px hidden #ddd;
       text-align: left;
     }
+
+    /* signup form */
+
+    #form-section {
+      position: relative;
+      background-image: url(../images/sign-up-form.jpg);
+      height: 800px;
+      background-size: cover;
+      margin: 0 auto;
+    }
+
+    #join-us-form{
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.65) ;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+    
+    }
+
+    form input,form label {
+    display: inline-block;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+      }
      
     
 
@@ -438,6 +461,12 @@ a {
   
   #events-table tbody tr:nth-child(even) {
     background-color: #f2f2f2;
+  }
+
+  #join-us-form{
+    height: 100vh;
+    width: 100%;
+    display: block;
   }
 
   
