@@ -212,7 +212,7 @@ a {
    /* introduction */
    #introduction {
     padding: 10px;
-    background: url('../images/dna-3888228_1280.jpg') no-repeat center center;
+    background: url('../images/introbackground.jpg') no-repeat center center;
     background-size: cover;
 
    }
@@ -221,6 +221,12 @@ a {
     color: white;
     text-align: center;
     margin-top: 20px;
+   }
+
+   #intro-title{
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 50%;
+    margin: 0 auto;
    }
    
    #video-container {
@@ -239,6 +245,7 @@ a {
     clear: both;
     background-color: #107c10;
     color: white;
+    padding: 10px;
    }
 
    #publications a {
@@ -261,7 +268,7 @@ a {
   }
 
    #papers {
-    width: 1000px;
+    width: 100vw;
     text-align: left;
   }
 
@@ -272,11 +279,16 @@ a {
     /* events */
 
     #events {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vh; /* Adjust the height as needed */
+      height: 40vh; /* Adjust the height as needed */
      }
+
+    #events-title{
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 25%;
+      text-align: center;
+     }
+
   
      #events a {
       color: #141422;
@@ -286,14 +298,17 @@ a {
      #events a:hover{
       color: #107c10;
      }
+    
   
-     table{
+    #events-table table{
+      margin: 0 auto;
+      margin-top: 40px;
       border-collapse: separate;
-      border-spacing: 10px;
+      border-spacing: 20px;
      
     }
   
-     th, td {
+    #events-table th, td {
       border: 10px hidden #ddd;
       text-align: left;
     }
@@ -373,4 +388,57 @@ a {
   #disclaimer {
     font-size: small;
   }
+
+   #intro-title{
+    margin-top: -30px;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100vw;
+   }
+
+   #video-container{
+    height: 50vh;
+   }
+   #video-container iframe {
+    height: 40vh;
+   }
+
+   #publications{
+    height: 40vh;
+    padding: 20px;
+   }
+
+   #events-title{
+    width: 100vw;
+   }
+
+    
+  #events-table {
+    width: 100%;
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  #events-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #events-table th,
+  #events-table td {
+    padding: 8px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  
+  #events-table thead th {
+    background-color: #107c10;
+    color: white;
+  }
+  
+  #events-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  
 }
