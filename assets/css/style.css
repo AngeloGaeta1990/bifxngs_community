@@ -426,15 +426,13 @@ a {
    #intro-title{
     margin-top: -30px;
     background-color: rgba(0, 0, 0, 0.85);
-    width: 98vw;
-    padding: 0;
+    width: 85vw;
     font-size: small;
-    box-sizing: border-box;
    }
 
    #video-container{
     height: 50vh;
-    width: 96vw;
+    width: 95vw;
    }
    #video-container iframe {
     height: 40vh;
@@ -452,19 +450,19 @@ a {
    }
 
    #events-title{
-    width: 96vw;
+    width: 95vw;
     font-size: small;
    }
 
     
   #events-table {
-    width: 96vw;
+    width: 95vw;
     margin-top: 20px;
     overflow-x: auto;
   }
   
   #events-table table {
-    width: 96vw;
+    width: 95vw;
     border-collapse: collapse;
   }
   
