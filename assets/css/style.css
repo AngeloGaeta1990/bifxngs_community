@@ -12,6 +12,7 @@ body{
     
 /* background-color: #141422; */
 margin: 0;
+padding: 0;
 background-color: white;
 }
 
@@ -264,7 +265,6 @@ a {
   }
 
    #papers {
-    width: 100vw;
     text-align: left;
   }
 
@@ -307,6 +307,7 @@ a {
     #events-table th, td {
       border: 10px hidden #ddd;
       text-align: left;
+      font-size: small;
     }
 
     /* signup form */
@@ -344,9 +345,9 @@ a {
 
   @media screen and (max-width: 897px) {
 
-   /* #disclaimer {
-    font-size: 50%
-   } */
+  header{
+    width: 100vw;
+  }
 
    #title h1 {
       font-size: large;
@@ -372,10 +373,15 @@ a {
   } 
 
   #over-image{
-    width: 100%;
-    height: 300px;
+    width: 98vw;
+    height: 45vh;
     left: 0px;
     top: 120px;
+    font-size: small;
+  }
+
+  #hero-image, #instrument-title, #disclaimer, footer{
+    width: 100vw;
   }
 
   #gallery {
@@ -408,19 +414,27 @@ a {
       order: 6;
     }
 
-  #disclaimer {
+  #disclaimer, footer {
     font-size: small;
   }
 
+
+   #introduction{
+    width: 96vw;
+   }
+
    #intro-title{
     margin-top: -30px;
-    margin-left: 0px;
     background-color: rgba(0, 0, 0, 0.85);
-    width: 100vw;
+    width: 98vw;
+    padding: 0;
+    font-size: small;
+    box-sizing: border-box;
    }
 
    #video-container{
     height: 50vh;
+    width: 96vw;
    }
    #video-container iframe {
     height: 40vh;
@@ -428,22 +442,29 @@ a {
 
    #publications{
     height: 40vh;
-    padding: 20px;
+    width: 98vw;
+    padding: 5px;
+    font-size: small;
+   }
+
+   #papers ul {
+         overflow-wrap: break-word;
    }
 
    #events-title{
-    width: 100vw;
+    width: 96vw;
+    font-size: small;
    }
 
     
   #events-table {
-    width: 100%;
+    width: 96vw;
     margin-top: 20px;
     overflow-x: auto;
   }
   
   #events-table table {
-    width: 100%;
+    width: 96vw;
     border-collapse: collapse;
   }
   
