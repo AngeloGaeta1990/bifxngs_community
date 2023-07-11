@@ -328,14 +328,40 @@ a {
       left: 50%;
       transform: translate(-50%, -50%);
       padding: 20px;
+      overflow-wrap: break-word;
+   }
     
-    }
+
 
     form input,form label {
-    display: inline-block;
+    display: block;
+    margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 5px;
     box-sizing: border-box;
       }
+
+    .ngs-checkbox {
+        display: inline;
+    }
+    #workflow-checkbox label {
+        display: inline;
+    }
+    
+    input[type=checkbox] {
+        display: inline;
+    }
+
+    .signup-button {
+      border-radius: 5px;
+    }
+
+    .signup-button:hover{
+      background-color: #107c10;
+      color: white;
+    }
+
+    
      
     
 
@@ -373,7 +399,7 @@ a {
   } 
 
   #over-image{
-    width: 97vw;
+    width: 95vw;
     height: 33vh;
     left: 0px;
     top: 120px;
@@ -484,8 +510,18 @@ a {
 
   #join-us-form{
     height: 100vh;
-    width: 100%;
     display: block;
+  }
+
+  #form-section {
+    font-size: small;
+     width: 100vw;
+
+  }
+
+  #join-us-form {
+    height: 80vh;
+    width: 70vw;
   }
 
   

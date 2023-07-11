@@ -59,18 +59,27 @@
 
             <label for="post-code">Post code</label>
             <input id="post-code" class="text-input" type="text" name="post-code">
-            
-            <p>Which sequencing workflow do you use?</p>
-            <label for="road">Illumina</label>
-            <input id="road" type="checkbox" name="sequencing-platform" value="illumina" >
-            <label for="trail">PacBio</label>
-            <input id="trail" type="checkbox" name="sequencing-platform" value="pacbio">
-            <label for="both">Nanopore</label>
-            <input id="both" type="checkbox" name="sequencing-platform" value="nanopore">
-            <label for="both">Others</label>
-            <input id="both" type="checkbox" name="sequencing-platform" value="other">
-            
 
+            <div id="workflow-checkbox">
+            <p>Which sequencing workflow do you use?</p>
+            <div class="ngs-checkbox">
+            <label for="illumina">Illumina</label>
+            <input id="illumina" type="checkbox" name="sequencing-platform" value="illumina" >
+            </div>
+            <div class="ngs-checkbox">
+            <label for="PacBio">PacBio</label>
+            <input id="PacBio" type="checkbox" name="sequencing-platform" value="pacbio">
+            </div>
+            <div class="ngs-checkbox">
+            <label for="Nanopore">Nanopore</label>
+            <input id="Naopore" type="checkbox" name="sequencing-platform" value="nanopore">
+            </div>
+            <div class="ngs-checkbox">
+            <label for="Others">Others</label>
+            <input id="Others" type="checkbox" name="sequencing-platform" value="other">
+            <div class="ngs-checkbox">
+           </div>
+<!-- 
             <fieldset>
                 <legend>Submit your inquiry</legend>
                 <label for="inquiry" class="#"> What can we do to assist you?</label>
@@ -78,8 +87,8 @@
                 <textarea id="inquiry" rows="7" cols="120" name="feedback"></textarea>
             </fieldset>
             <p> Click on the button below to upload any data</p>
-            <input type="file"  class="join-button" value="upload data">
-            <input type="submit"  class="join-button" value="let's start sequencing!">
+            <input type="file"  class="join-button" value="upload data"> -->
+            <input type="submit"  class="signup-button" value="let's start sequencing!">
 
         
         </form>
