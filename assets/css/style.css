@@ -4,7 +4,7 @@
 /* general */
 
 *{
-    font-family: Open Sans, Titillium Web, sans-serif;
+    font-family: "Open Sans", "Titillium Web", sans-serif;
     margin: 0px;
 }
 
@@ -26,11 +26,11 @@ h1{
 }
 
 h1,h2 {
-    font-family: Titillium Web, sans-serif;
+    font-family: "Titillium Web", sans-serif;
 }
 
 p {
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* title section */
