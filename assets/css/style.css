@@ -37,6 +37,10 @@ header{
     height: 80px;
 }
 
+#title {
+  margin-left: 10px;
+}
+
 #title> a{
     text-decoration: none;
     float: left;
@@ -98,12 +102,12 @@ a {
 }
 #over-image{
     background-color: rgba(0, 0, 0, 0.85);
-    top: 250px;
+    top: 280px;
     right: 10px;
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
     position: absolute;
-    padding: 5px;
+    padding: 20px;
     color: white;
 }
 
@@ -132,7 +136,8 @@ a {
     margin-top: 0px;
     background-color: #107c10 ;
     width: 100%;
-    height: 40px;
+    height: 50px;
+    padding: 20px;
     color: white;
   }
 
@@ -153,6 +158,10 @@ a {
     margin: 10px;
     object-fit: contain;
     margin: 10px;
+  }
+
+  #gallery img:nth-child(6) {
+    margin-top: 50px;
   }
 
   #disclaimer{
@@ -227,12 +236,18 @@ a {
     margin: 0px;
     justify-content: center;
     align-items: center;
-    height: 80vh; /* Adjust the height as needed */
+    height: 80vh; 
   }
   
 
   
 /* publications */
+
+   #publications-header h2{
+
+    padding: 10px;
+    margin-left: 30px;
+   }
 
    #publications {
     clear: both;
@@ -294,7 +309,7 @@ a {
   
     #events-table table{
       margin: 0 auto;
-      margin-top: 40px;
+      margin-top: 5px;
       border-collapse: separate;
       border-spacing: 20px;
      
@@ -303,7 +318,6 @@ a {
     #events-table th, td {
       border: 10px hidden #ddd;
       text-align: left;
-      font-size: small;
     }
 
     /* signup form */
@@ -327,7 +341,12 @@ a {
       overflow-wrap: break-word;
    }
     
-
+   #join-us-form input[type="text"],#join-us-form input[type="email"], #join-us-form input[type="password"] {
+    width: 300px;
+   }
+   #postcode input[type="text"]{
+    width: 100px;
+   }
 
     form input,form label {
     display: block;
@@ -350,16 +369,24 @@ a {
 
     .signup-button {
       border-radius: 5px;
-    }
-
-    .signup-button:hover{
+      width: 200px;
+      height: 50px;
+      font-size: medium;
       background-color: #107c10;
       color: white;
     }
 
+    .signup-button:hover {
+     color: #141422;
+     cursor: pointer;
+     
+    }
+
+    
+
 
     /*Contact us */
-   #ask-us-form{
+   #ask-us-form {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.65) ;
     color: white;
@@ -370,15 +397,20 @@ a {
     overflow-wrap: break-word;
 
    }
+
+   #ask-us-form input[type="email"] {
+
+    width: 300px;
+   }
+
     
-   #kiteworks a{
+   #kiteworks a {
     text-decoration: none;
    }
 
-   #kiteworks a:hover{
+   #kiteworks a:hover {
     color: #107c10;
    }
-
 
 
   @media screen and (max-width: 897px) {

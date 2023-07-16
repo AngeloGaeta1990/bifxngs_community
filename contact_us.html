@@ -41,20 +41,25 @@
      <section class="form-background">
         <form method="post" action="https://formdump.codeinstitute.net/" id="ask-us-form">
         <h2>Submit your inquiry</h2>
-        <label for="email">Email Address</label>
-        <input id="email" class="text-input" type="email" name="email_address" required>
-        <fieldset>
-                <legend>What can we do to assist you?</legend>
-                <label for="inquiry"> </label>
-                <br>
-                <textarea id="inquiry" rows="20" cols="200" name="feedback">My FASTQ files have a size of 1Kb can you assist me? I have a MiSeq and use Local Run Manager for FASTQ generation</textarea>
-        </fieldset>
+        <div id="e-mail">
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required>
+        </div>
+        <div id="inquiry">
+            <fieldset>
+                    <legend>What can we do to assist you?</legend>
+                    <label for="inquiry"> </label>
+                    <br>
+                    <textarea id="inquiry" rows="20" cols="70" name="feedback">Type here your inquiry...</textarea>
+            </fieldset>
+        </div>
             <p> Click on the button below to upload any data</p>
-            <input type="file"  class="choose-button">
+            <input type="file">
             <p> To upload compressed folder or files bigger than 35Mb: </p>
             <div id="kiteworks">
             <a href="https://www.kiteworks.com/get-started/">Click here</a>
             </div>
+            <input type="submit"  class="signup-button" >
         </form>
 
      </section>

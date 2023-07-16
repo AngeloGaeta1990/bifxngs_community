@@ -43,25 +43,27 @@
      <section class="form-background">
         <form method="post" action="https://formdump.codeinstitute.net/" id="join-us-form">
             <h2>Join our Bioinformatics community for NGS! <i class="fa-solid fa-dna"></i></h2>
-            <label for="fname">First Name</label>
+            <label for="fname">Name</label>
             <input id="fname" class="text-input" type="text" name="first_name" required>
             
-            <label for="lname">Last Name</label>
-            <input id="lname" class="text-input" type="text" name="last_name" required>
-            
-            
-            <label for="email">Email Address</label>
+            <label for="email">Email</label>
             <input id="email" class="text-input" type="email" name="email_address" required>
+
+            <label for="pwd">Password</label>
+            <input id="pwd" class="text-input" type="password" name="password" required>
             
-             <p> Add your address to receive updates on events near you and be in touch with members of our community near you </p>
+            <p> Add your address to receive updates on events near you </p>
+            <p></p>and be in touch with members of our community near you</p>
             <label for="address">Address</label>
             <input id="address" class="text-input" type="text" name="address">
 
             <label for="city">City</label>
             <input id="city" class="text-input" type="text" name="city">
-
+             
+            <div id="postcode">
             <label for="post-code">Post code</label>
             <input id="post-code" class="text-input" type="text" name="post-code">
+            </div>
 
             <div id="workflow-checkbox">
             <p>Which sequencing workflow do you use?</p>
