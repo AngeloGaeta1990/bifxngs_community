@@ -400,6 +400,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
+    height: auto;
     overflow-wrap: break-word;
 
    }
@@ -419,7 +420,7 @@ a {
    }
 
 
-/* media query for big-medium sceen (smaller than 1268px)*/
+/* media query for big-medium screen (smaller than 1268px)*/
 @media screen and (max-width: 1268px) {
 #join-us-form{
   height: 80vh;
@@ -437,7 +438,7 @@ a {
 
 }
 
- /* media query for intermedium sceen (smaller than 930px)*/
+ /* media query for intermedium screen (smaller than 930px)*/
 @media screen and (max-width: 930px) {
 
   #join-us-form{
@@ -496,6 +497,7 @@ a {
   #instrument-title {
     font-size: small;
     padding: 5px;
+    width: calc(100vw - (2*5px));
   }
 
   #join-us-form{
@@ -515,7 +517,7 @@ a {
   }
 
 
-   /* media query for small sceen (smaller than 582px)*/
+   /* media query for small screen (smaller than 582px)*/
   @media screen and (max-width: 582px) {
 
   header{
@@ -583,6 +585,7 @@ a {
     }
   #gallery img:nth-child(3) {
       order: 5;
+      width: 90vw;
   }
   
   #gallery img:nth-child(4) {
@@ -622,7 +625,7 @@ a {
    }
 
    #publications{
-    height: 30vh;
+    height: auto;
     width: calc(100vw - (2*5px));
     padding: 5px;
     font-size: small;
@@ -689,7 +692,7 @@ a {
 
   
   #ask-us-form {
-    height: 85vh;
+    height: auto;
     width: 70vw;
     font-size: small;
   }
