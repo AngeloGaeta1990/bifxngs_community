@@ -135,7 +135,7 @@ a {
   #instrument-title {
     margin-top: 0px;
     background-color: #107c10 ;
-    width: calc(100vw-(2*20));
+    width: calc(100vw - (2*20px));
     height: 50px;
     padding: 20px;
     color: white;
@@ -347,11 +347,11 @@ a {
    }
     
    #join-us-form input[type="text"],#join-us-form input[type="email"], #join-us-form input[type="password"] {
-    width: 10vw;
+    width: 15vw;
    }
 
    #postcode input[type="text"]{
-    width: 5vw;
+    width: 7vw;
    }
 
     form input,form label {
@@ -437,6 +437,26 @@ a {
 
 }
 
+ /* media query for intermedium sceen (smaller than 930px)*/
+@media screen and (max-width: 930px) {
+
+  #join-us-form{
+      height: 70vh;
+      width: 50vw;
+      font-size: medium;
+}
+.signup-button {
+  border-radius: 5px;
+  width: 30vw;
+  height: 3vh;
+  font-size: medium;
+  background-color: #107c10;
+  color: white;
+}
+
+
+}
+
 /* media query for medium screen (smaller than 772px)*/
 @media screen and (max-width: 772px){ 
 
@@ -479,7 +499,7 @@ a {
   }
 
   #join-us-form{
-    height: 60vh;
+    height: 70vh;
     width: 80vw;
     display: block;
   }
@@ -599,7 +619,7 @@ a {
 
    #publications{
     height: 30vh;
-    width: calc(100vw-(2*5));
+    width: calc(100vw - (2*5px));
     padding: 5px;
     font-size: small;
    }
