@@ -135,7 +135,7 @@ a {
   #instrument-title {
     margin-top: 0px;
     background-color: #107c10 ;
-    width: 100%;
+    width: calc(100vw-(2*20));
     height: 50px;
     padding: 20px;
     color: white;
@@ -347,11 +347,11 @@ a {
    }
     
    #join-us-form input[type="text"],#join-us-form input[type="email"], #join-us-form input[type="password"] {
-    width: 300px;
+    width: 10vw;
    }
 
    #postcode input[type="text"]{
-    width: 100px;
+    width: 5vw;
    }
 
     form input,form label {
@@ -418,8 +418,85 @@ a {
     color: #107c10;
    }
 
-   /* media query  for sceen smaller than 897px*/
-  @media screen and (max-width: 897px) {
+
+/* media query for big-medium sceen (smaller than 1268px)*/
+@media screen and (max-width: 1268px) {
+#join-us-form{
+  height: 70vh;
+  width: 50vw;
+  display: block;
+}
+
+#join-us-form input[type="text"],#join-us-form input[type="email"], #join-us-form input[type="password"] {
+  width: 30vw;
+ }
+
+ #postcode input[type="text"]{
+  width: 15vw;
+ }
+
+}
+
+/* media query for medium screen (smaller than 772px)*/
+@media screen and (max-width: 772px){ 
+
+  #title h1 {
+    font-size: x-large;
+    text-align: left;
+ }
+
+ title{
+  margin-bottom: 0px;
+ }
+
+ #menu, #title {
+  display: block;
+  clear: both;
+ }
+
+ #menu  { 
+ margin-top: 0px; 
+ margin-left: 0px;
+ padding: 0px;
+ line-height: 25px;
+ float: left;
+ font-size: small;
+} 
+
+  #over-image{
+  width: 70vw;
+  height: 30vh;
+  left: 0px;
+  top: 120px;
+  font-size: small;
+  text-align: left;
+  padding: 20px;
+    }
+
+  #instrument-title {
+    font-size: small;
+    padding: 5px;
+  }
+
+  #join-us-form{
+    height: 60vh;
+    width: 80vw;
+    display: block;
+  }
+
+  #join-us-form input[type="text"],#join-us-form input[type="email"], #join-us-form input[type="password"] {
+    width: 40vw;
+   }
+
+   #postcode input[type="text"]{
+    width: 20vw;
+   }
+
+  }
+
+
+   /* media query for small sceen (smaller than 582px)*/
+  @media screen and (max-width: 582px) {
 
   header{
     width: 100vw;
@@ -453,6 +530,7 @@ a {
     height: 33vh;
     left: 0px;
     top: 120px;
+    padding: 5px;
     font-size: small;
   }
 
@@ -460,10 +538,6 @@ a {
     width: 100vw;
   }
 
-  #instrument-title {
-    width: 92vw;
-    font-size: small;
-  }
 
   #disclaimer {
       overflow-wrap: break-word;
@@ -524,8 +598,8 @@ a {
    }
 
    #publications{
-    height: 40vh;
-    width: 98vw;
+    height: 30vh;
+    width: calc(100vw-(2*5));
     padding: 5px;
     font-size: small;
    }
@@ -568,12 +642,6 @@ a {
     background-color: #f2f2f2;
   }
 
-  #join-us-form{
-    height: 80vh;
-    width: 65vw;
-    display: block;
-  }
-
   .form-background{
     font-size: small;
      width: 100vw;
@@ -589,16 +657,9 @@ a {
 
   }
 
-  #join-us-form input[type="text"],#join-us-form input[type="email"], #join-us-form input[type="password"] {
-    width: 200px;
-   }
-
-   #postcode input[type="text"]{
-    width: 100px;
-   }
   
   #ask-us-form {
-    height: 88vh;
+    height: 80vh;
     width: 70vw;
   }
 
