@@ -558,6 +558,10 @@ a {
     width: 100vw;
   }
 
+  #instrument-title {
+      width: 100vw;
+  }
+
 
   #disclaimer {
       overflow-wrap: break-word;
@@ -666,6 +670,11 @@ a {
     font-size: small;
      width: 100vw;
   }
+
+  #join-us-form {
+    height: 75vh;
+  }
+  
   
   #join-us-form .signup-button{
     border-radius: 5px;
@@ -679,7 +688,7 @@ a {
 
   
   #ask-us-form {
-    height: 80vh;
+    height: 75vh;
     width: 70vw;
   }
 
