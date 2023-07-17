@@ -412,7 +412,7 @@ a {
     color: #107c10;
    }
 
-
+   /* media query */
   @media screen and (max-width: 897px) {
 
   header{
@@ -443,15 +443,24 @@ a {
   } 
 
   #over-image{
-    width: 95vw;
+    width: 90vw;
     height: 33vh;
     left: 0px;
     top: 120px;
     font-size: small;
   }
 
-  #hero-image, #instrument-title, #disclaimer, footer{
+  #hero-image, #disclaimer, footer{
     width: 100vw;
+  }
+
+  #instrument-title {
+    width: 92vw;
+    font-size: small;
+  }
+
+  #disclaimer {
+      overflow-wrap: break-word;
   }
 
   #gallery {
@@ -541,6 +550,7 @@ a {
     padding: 8px;
     white-space: nowrap;
     text-align: left;
+    font-size: small;
   }
   
   #events-table thead th {
@@ -553,19 +563,38 @@ a {
   }
 
   #join-us-form{
-    height: 100vh;
+    height: 80vh;
+    width: 65vw;
     display: block;
   }
 
   .form-background{
     font-size: small;
      width: 100vw;
+  }
+  
+  #join-us-form .signup-button{
+    border-radius: 5px;
+    width: 170px;
+    height: 22px;
+    font-size: small;
+    background-color: #107c10;
+    color: white;
 
   }
 
-  #join-us-form, #ask-us-form {
-    height: 80vh;
+  #ask-us-form {
+    height: 88vh;
     width: 70vw;
+  }
+
+  .signup-button {
+    border-radius: 5px;
+    width: 100px;
+    height: 22px;
+    font-size: small;
+    background-color: #107c10;
+    color: white;
   }
 
   #ask-us-form textarea{
