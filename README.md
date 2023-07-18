@@ -12,7 +12,7 @@ _____________________________
 ## Features
 - ### Navigation 
   - At the top left corner of the page there is the website title linking to the home page.
-  - the ramaining navigation links show up to the right: Home,Resources, Join us, Contact us.
+  - The ramaining navigation links show up to the right: Home,Resources, Join us, Contact us.
   - The white color of the font contrasts with the green background.
   - The navigation describes the name of the website and make easy to the user to navigate trough the different sections.
   - The color of the font in the navigation bar changes on the basis of where the user is.
@@ -41,7 +41,6 @@ _______________________________________________________________
 
 - ### Resources
      - Includes a video tutorial section about bioinformatic basics for NGS.
-     - The background image for the tutorial section matches color and themes of the home page.
      - Includes the list of the latest publications.
      - The user can click on the publication and it will open in a new link.
      - The link font is white to contrast to the green background.
@@ -54,19 +53,18 @@ _______________________________________________________________
 
 - ### Join us
      - Contains the form to join the bioinformatic NGS community
-     - First Name, Last Name and E-mail address are required info.
+     - Name, e-mail and password are required info.
      - Address info are optional, if added the user will be in touch with other members and events near him.
      - The user can select which sequencing workflow/workflows he is using.
      - The submit button changes color when the user selects it.
      - Form inputs are sent trough POST method to API server.
-     - A different background image has been chose matching the website theme.
      __________________________________________________________
      ![join us section](assets/images/join_us.PNG)
 
 - ### Contact us
      - Contains a form to submit an inquiry.
      - The user has to add the e-mail address.
-     - In the form an example of a typical inquiry is present.
+     - In the form a text suggesting were to write the inquiry is shown.
      - User can upload files up to 35MB by selecting the choose file button.
      - For files bigger than 35MB or compressed folder the customer can select the click here button and upload files to Kiteworks.
     ____________________________________________
