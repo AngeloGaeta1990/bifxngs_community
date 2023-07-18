@@ -73,7 +73,7 @@ _______________________________________________________________
      ![contact us section](assets/images/contact_us.PNG)
 __________________________________________________________
 ## Testing
-   - Pages have been tested in the browser Chrome and Edge.
+   - Pages have been tested in the browser Chrome, Edge and Firefox.
    - The project adapts to big and small screen displays.
    - All links have been tested and are functional.
    - All forms filed have been tested and work as expected.
@@ -85,7 +85,7 @@ __________________________________________________
         - No error was returned when submitted to the Jigsaw validator.
    - Accessibility
         - Colors and fonts are accessible and easy to read when parsed trough lighthouse in devtools.
-     ![Lighthouse score](assets/images/lighthouse_score.PNG)
+     ![Lighthouse score](assets/images/lighthouse_score.png)
 __________________________________________________
 ## Deployment
    - The website was deployed to GitHub pages.The website has been deployes as follow:
