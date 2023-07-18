@@ -7,7 +7,7 @@ The goal is to connect to the other community members in your area, and assist i
 On the Website you will also find **tutorials**, latest **scientific papers**, and online **webinars**.
 If you want our community to assist you with a specific issue, you can fill the **contact us** form, and upload your data.
 
-   ![Website layout](assets/images/bifxngs.PNG)
+   ![Website layout](media/bifxngs.PNG)
 _____________________________
 ## Features
 - ### Navigation 
@@ -19,7 +19,7 @@ _____________________________
   - On small screens the links move beneath the title.
   ________________________________________________________
 
-  ![Navigation Bar](assets/images/navigation.PNG)
+  ![Navigation Bar](media/navigation.PNG)
 
 - ### Footer
     - The footer shows the copyright.
@@ -27,7 +27,7 @@ _____________________________
     - Aria-label is present to improve accessibility.
     - Links open in a new page.
 _______________________________________________________________
-  ![Footer](assets/images/footer.PNG)
+  ![Footer](media/footer.PNG)
 - ### Home
     - Includes a text-box describing in a few words the purpose of the website.
     - Contains an hero image representing a DNA double helix, it also includes a scrolling down animation representing code moving in a terminal.
@@ -36,8 +36,8 @@ _______________________________________________________________
     - A disclaimer explains to the user that the website is not a Tech Support website and the latter should be contacted for professional assistance.
     - In media query the company logos and instrument show up as a column, and the logo instrument order is mantained. 
     __________________________________________________________
-   ![Home section1](assets/images/home_section1.PNG)
-   ![Home section2](assets/images/home_section2.PNG)
+   ![Home section1](media/home_section1.PNG)
+   ![Home section2](media/home_section2.PNG)
 
 - ### Resources
      - Includes a video tutorial section about bioinformatic basics for NGS.
@@ -48,8 +48,8 @@ _______________________________________________________________
      - The webinars section includes a table showing date, topic, speaker and zoom link to the webinar.
      - On small screens the tables can be scrolled to access all info.
      _________________________________________________________
-    ![Resources section1](assets/images/resources_section1.PNG)
-    ![Resources section1](assets/images/resources_section2.PNG)
+    ![Resources section1](media/resources_section1.PNG)
+    ![Resources section1](media/resources_section2.PNG)
 
 - ### Join us
      - Contains the form to join the bioinformatic NGS community
@@ -59,7 +59,7 @@ _______________________________________________________________
      - The submit button changes color when the user selects it.
      - Form inputs are sent trough POST method to API server.
      __________________________________________________________
-     ![join us section](assets/images/join_us.PNG)
+     ![join us section](media/join_us.PNG)
 
 - ### Contact us
      - Contains a form to submit an inquiry.
@@ -68,7 +68,7 @@ _______________________________________________________________
      - User can upload files up to 35MB by selecting the choose file button.
      - For files bigger than 35MB or compressed folder the customer can select the click here button and upload files to Kiteworks.
     ____________________________________________
-     ![contact us section](assets/images/contact_us.PNG)
+     ![contact us section](media/contact_us.PNG)
 __________________________________________________________
 ## Testing
    - Pages have been tested in the browser Chrome, Edge and Firefox.
@@ -83,7 +83,7 @@ __________________________________________________
         - No error was returned when submitted to the Jigsaw validator.
    - Accessibility
         - Colors and fonts are accessible and easy to read when parsed trough lighthouse in devtools.
-     ![Lighthouse score](assets/images/lighthouse_score.png)
+     ![Lighthouse score](media/lighthouse_score.png)
 __________________________________________________
 ## Deployment
    - The website was deployed to GitHub pages.The website has been deployes as follow:
